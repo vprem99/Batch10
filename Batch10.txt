@@ -1,0 +1,111 @@
+What is Java ?
+---------------------
+-It is High level Programming Language
+-Free & Open Source
+-WORA(Write Once & Run Aywhere) - It is platform independant
+-It is Easy to learn (All keywords are very similar to English Language)
+-Secure
+-Supports Multi-Threading (Multiple Functions can be run simultanously/parallely)
+
+
+Configurations Needs:
+-----------------------------
+1.JDK
+		It makes your system aware about what is java, protocols of Java etc.
+2.Editor i.e Notepad, Notepad++, Eclipse, Netbean
+		
+How to check system is having Java or Not ?
+		java -version
+
+
+JDK > When you want to Dev + Run 
+JRE > When you want to Just Run already Develop Application
+
+
+Java's Programme Execution Sequence:
+--------------------------------------------------
+
+A.java			>  Compiler > A.class (Bytecode-intermediate language) ->   JVM(Interpreter)
+				> converts into 0 & 1
+
+There is two execution in Java due to which java is platform indepenadant.
+
+
+1.Create Project
+2.Create Package
+3.Create Class
+
+
+Data Type:
+--------------
+int 
+boolean
+char
+byte
+float
+double
+short
+int
+long
+
+Arithmatic Operator:
+--------------------------
++
+-
+/
+*
+%
+
+
+Comparision Operator:
+>
+<
+>=
+<=
+==
+!=
+
+
+Logical Operators:
+&&  - AND
+||	    OR
+! 	    NOT
+
+
+String name;
+Human prem
+
+
+
+
+
+Loops: Needs> If you want to do something multiple time then use loop concept
+-----
+1.For Loop
+2.while
+3.Do_While
+4.For Each (Array, Collection( List, Set))
+
+
+
+1.for
+			fibonacci Series:
+			---------------------
+			a   b  c
+			0, 1, 1, 2, 3, 5, 8, 13, 21, 34
+			    a   b c
+
+
+
+
+While
+-COndition  Check & then Do
+-Code may or may not execute depending on condition ( No garantee of Execution of  code for once)
+
+
+do_while
+-First Do & Check
+-Code gives garantee of execution at least for once
+
+https://github.com/vprem99/Batch10
+	
