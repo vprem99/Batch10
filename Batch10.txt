@@ -108,4 +108,125 @@ do_while
 -Code gives garantee of execution at least for once
 
 https://github.com/vprem99/Batch10
+
+
+
+
+
+int num =1234
+		num/10= 123
+		num%10= 4
+
+
+		123/10= 12
+		123%10= 3		
+				
+
+		rem*10+rem
+		4*10+3 =43
+
+		12/10= 1
+		12%10=2
+
+		1/10= 0
+		1%10= 1
+		
+-------------------------------------------------------------------------------------
+Java OOPs
+
+
+Object:  Any real time entity which is having States & Beahvior
+
+
+States/Properties (These will be noun) 			>>> Variables
+		-BrandName
+		-Type
+		-Price
+		-Color
+		-Dimension
+
+
+
+Beahvior/Actions : (These are Verbs) 			>> Methods
+		-Writing
+		-Opening/Closing
+		-Changing Refill
+
+
+
+Class : Combination of relevent states & Behavior
+	   BluePrint of Object
+
+
+
+
+
+
+Static KeyWord: It is keyword which can be used with variables & Methods
+---------------------
+
+Adv:
+------
+1.It is used for memory managment
+2.It is also used for Quick access to some methods/variable as per requirements
+
+
+
+
+Inheritance: Getting property of  Parent Class to its Child Class
+--------------
+
+Loan Management System:
+---------------------------------
+Class Loan{
+200 loc
+}
+
+Class HomeLoan extends Loan				Class EducationLoan extends Loan				Class GoldLoan extends Loan
+{										{											{
+300 loc 									300 loc										300 loc
+}										}											}
+
+
+PersonalLoan extends Loan
+{
+300 loc
+}
+
+Total LOC : 2000
+Time: 24 hrs
+
+
+
+Total LOC: 1400
+time : 18 hrs
+
+
+Adv: 
+1.LOC will be Less
+2.Devloping time will be less
+3.If LOC is less application will be faster
+4.Application will be Easy to Change/ Maintain
+
+
+								
+
+
+Every Car IS-A Vehicle
+Every Bike IS-A Vehicle
+Every Truck IS-A Vehcile
+
+Vehicle{
+
+
+
+
+
+
+
+}
+
+
+
+
 	
