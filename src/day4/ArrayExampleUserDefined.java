@@ -25,9 +25,5 @@ public class ArrayExampleUserDefined {
 		for (String x : name) { // For Each loop/ Advance For loop
 			System.out.println(x);
 		}
-
-		
-		
 	}
-
 }
