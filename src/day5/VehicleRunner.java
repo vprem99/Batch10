@@ -1,14 +1,20 @@
 package day5;
 
 class car extends Vehicle {
-	
+
 }
 
 class Bike extends Vehicle {
 
+	public void drive() {
+		System.out.println("Bike Being drive");
+	}
+
 	public void kickStart() {
 		System.out.println("Kick Start of Bike");
 	}
+	
+	
 }
 
 public class VehicleRunner {
@@ -22,12 +28,12 @@ public class VehicleRunner {
 		v.display();
 		v.drive();
 		v.getDetails();
-		
-		Bike    b=new Bike();
-		b.BName="Honda";
-		b.color="Red";
-		b.price=90000;
-		b.type="Electric";
+
+		Bike b = new Bike();
+		b.BName = "Honda";
+		b.color = "Red";
+		b.price = 90000;
+		b.type = "Electric";
 		b.display();
 		b.drive();
 		b.getDetails();

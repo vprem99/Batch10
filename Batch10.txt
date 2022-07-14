@@ -218,15 +218,47 @@ Every Truck IS-A Vehcile
 
 Vehicle{
 
-
-
-
-
-
-
 }
 
 
+Polymorphism:
+-------------------
+Many forms
+
+There will multiple methods with same name but different implementation
 
 
+
+
+1.Method Overriding
+		> There is need of two classes for this with parent & Child Relationship
+	  	> There is need of same method in parent also & in Child also but with different 				   implementation  for overriding code of Parent.
+
+
+		
+2.Method Overloading
+			> There is no need of Two Classes, Single Class is sufficient for this
+			> There are multiple methods in single class with same name but different 							implementation/arguments/data type. 
+		
+
+
+Constructor:
+1.It is having same name as ClassName
+2.It do not have return type
+
+
+
+Benefits: If you want to execute some set of code while making object of that class then you 			    can use constructor i.e initialization of class level variables/instance variable with 			    custom values.
 	
+
+
+
+Basic Encapsulation:
+Keeping relevent methods & variable into single unit will be called as Encapsulation
+
+But Security can be increased by using different access modifiers like public, private, protected etc.
+
+
+
+19 > Interface, Encapsulation/Abstraction
+21 > Exception Handling, & Collection
