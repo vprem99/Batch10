@@ -258,7 +258,34 @@ Keeping relevent methods & variable into single unit will be called as Encapsula
 
 But Security can be increased by using different access modifiers like public, private, protected etc.
 
+Encapsulation is also defined as Hidding Data for increasing security .
 
 
-19 > Interface, Encapsulation/Abstraction
-21 > Exception Handling, & Collection
+private : Variable/ Method will not be visible outside of that class
+
+
+public: Visible EveryWhere
+private: Visible inside class Only
+protected/default: Visible within package only
+protected : It will give its protected mathod/ variable to its child even if it is outside package
+
+Encapsulation: It is hindding Data
+Abstraction: Showing necessary things after Hidding un-necessary things.
+
+
+Interface:
+------------
+
+Samsung 
+
+
+Interface is a set of Protocol/Rule
+
+Galaxy					Eseries				Jseries						Note
+D1							D2						D3							D4
+
+inCll						in_Call				incomingCall				incomingCalling
+
+
+
+21 > Abstract Class,Exception Handling, & Collection
