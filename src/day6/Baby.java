@@ -1,5 +1,7 @@
 package day6;
 
+import java.io.FileInputStream;
+
 public class Baby {
 	Baby(int age) {
 		System.out.println("You are in age  ConStructor");
@@ -24,6 +26,8 @@ public class Baby {
 	boolean male;
 
 	public void getName() {
+		
+	//	FileInputStream ip=new FileInputStream("");
 		System.out.println("Name is " + name);
 		System.out.println("Age is " + age);
 		System.out.println("Male Gender is " + male);

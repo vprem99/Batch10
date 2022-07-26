@@ -1,5 +1,7 @@
 package day7;
 
+import java.io.FileInputStream;
+
 public class Emp {
 	protected String name;
 	private int basicSal = 20000;

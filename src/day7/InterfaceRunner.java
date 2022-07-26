@@ -8,7 +8,7 @@ public class InterfaceRunner {
 	public static void main(String[] args) {
 		// Basic b = new Basic(); // You can not make object of Interface Since It has
 		// only Method Declaration..no implementation
-		
+		int a=5;
 		Basic e=null;    // Parent p=new CHild
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Select Choice \n1.Eseries\n2.Jseries");
@@ -35,4 +35,11 @@ public class InterfaceRunner {
 	child similar to above example.  */
 		
 	}
+	
+
+	
+	
+	
 }
+
+

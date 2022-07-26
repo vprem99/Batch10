@@ -288,4 +288,77 @@ inCll						in_Call				incomingCall				incomingCalling
 
 
 
-21 > Abstract Class,Exception Handling, & Collection
+21 > Abstract Class,Exception Handling, & Collection.
+
+
+Exception Handling:
+--------------------------
+
+It is used for handling abnormal termination of your programme. & Only Risky part is written inside in Exception handling part.
+By Keeping rissky part in try block rest LOC will be executed.
+
+
+		try{
+		// Keep your risky code here
+		}catch(ArithmaticException A){
+		.....
+		}
+		.
+		.
+		.
+		catch(Exception A){
+
+		}
+
+
+Kinds of Exception
+1.Checked : High Chance of Occurance  | Compile Time
+
+		i.e FileNotFoundException
+
+2.UnChecked:		Less Chance of Occurance   | Run Time
+
+		i.e ArithMaticException
+
+
+
+
+
+
+ExceptionHandlingExample.java   > compiler > ExceptionHandlingExample.class   > JVM(Interpreter)  > 01's 
+
+
+int []mobile=new int[20];
+
+
+
+
+Environment Needs for Selenium WebDriver:
+1.JDK
+2.Eclipse
+3.Selenium Java Libraries for Scripting in Java
+4.Drivers i.e chromedriver.exe for working with chrome browser
+		     geckodriver.exe for working with Firefox 
+		     operadriver.exe for opera browser
+
+
+
+There can be two types project 
+1.Java Project
+2.Maven Project
+
+The path to the driver executable must be set by the webdriver.chrome.driver system property;
+
+
+Selenium Locators: Locators are unique property by which selenium finds that object/element/WebElement 
+------------------------
+1.id
+2.name
+3.linkText
+4.css
+5.Xpath
+
+
+
+
+
