@@ -359,6 +359,58 @@ Selenium Locators: Locators are unique property by which selenium finds that obj
 5.Xpath
 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Cascading Style sheet Format:
+-----------------------
+1.CSS with ID
+	tagname#id
+2.CSS with name/type/value/any property
+	tagname[name/type/value/any property='value of that property']
+
+3.CSS with ClassName
+	tagname.classname
+
+Xpath: It is sequence collection of html Nodes
+1.Absolute Xpath
+	/html/body/div[1]/div/div[3]/div[2]/div[2]/form/div[5]/div/a
+	>It always starts with single '/' 
+	>It is not recommended for Project Since It Page layout dependant
+
+2.Relative xpath
+	//*[@id='forgotPasswordLink']/a
+	>It always starts with '//'
+	>It is recommended for Project since it is not dependant on Page layout
+
+
+Working with dropDown:
+-------------------------------
 
 
 
+
+
+
+findElement : Used for working with single Object which is having unique Property
+			 Return type is WebElement
+			  If Element is not found then NoSuchElementException
+
+findElements: Used for working with working with multiple objects which having common property
+			Return type is List<WebElement>
+			If Element is not found then It returns empty list
+
+
+
+
+Day  8: 
+1.Selenium COnfiguration for Eclipse
+2.Staring browser & Closing it
+3.Opening link
+4.Getting title
+5.What is Locator & thier types : id, name, linkText
+
+Day9:
+>CSS & Xpath locators
+>DropDown
+>findElements(Working with multiple Object)
+>Taking UserInput in Selenium Script

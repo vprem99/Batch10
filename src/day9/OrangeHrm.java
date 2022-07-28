@@ -13,6 +13,7 @@ public class OrangeHrm {
 				"D:\\Users\\Premchand\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver(); // parent p=new Child For Starting ChromeDriver browser
 		driver.manage().window().maximize(); // For Maximize browser
+		
 		driver.get("https://opensource-demo.orangehrmlive.com/");// For Opening Url
 		driver.findElement(By.id("txtUsername")).clear();
 		driver.findElement(By.id("txtUsername")).sendKeys("admin");
